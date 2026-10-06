@@ -12,6 +12,7 @@ function getStatusMessage (int $status): string
     500 => 'Internal server error',
     default => 'Invalid Number'
 };
+echo $msg;
 return '';
 }
 $msg = getStatusMessage (200);
